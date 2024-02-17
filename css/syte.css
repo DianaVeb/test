@@ -685,7 +685,7 @@ input{
 @media screen and (max-width:375px){
     header img{
         width: 150px;
-        margin-left: 5px;
+
     }
     
     .burger-checkbox {
@@ -760,6 +760,10 @@ input{
     }
     .burger-checkbox:checked ~ .menu-list {
         transform: translateX(0);
+    }
+
+    header{
+        padding: 30px 10px;
     }
     
     .accaunt{
